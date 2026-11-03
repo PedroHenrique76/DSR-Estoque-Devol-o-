@@ -46,7 +46,7 @@ Regras a fixar antes de construir (decisões, não código):
 
 ## Extrações necessárias
 
-Uma por período, salvas em `bases/devolucao/AAAA-MM-DD.xlsx` (data de corte no nome).
+Uma por período, salvas em `bases_devolucao/AAAA-MM-DD.xlsx` (passa a `bases/devolucao/` na reorganização do passo 1) (data de corte no nome).
 
 **1. Itens devolvidos por cliente** (uma linha por item da NF de devolução)
 
