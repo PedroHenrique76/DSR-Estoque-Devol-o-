@@ -65,8 +65,8 @@ tema claro e escuro, funciona no celular (testado em 390 px sem rolagem lateral)
 - **Devolução** (desenhada, não implementada): pacote `devolucao/`, bases em `bases_devolucao/`,
   textos em `analises_devolucao/`. Desenho completo, indicadores, extrações e ordem de construção em
   `docs/devolucao-estrutura.md`; rascunho de consulta em `sql/devolucao_clientes.sql`.
-  O primeiro passo é extrair o que é comum (formato, bases, página/PDF, Excel) para `comum/` sem
-  mudar nenhum número do estoque; os testes atuais garantem isso.
+  Passo 1 feito: o que é comum (formato, bases, página/PDF, Excel) está em `comum/`, sem mudar nenhum
+  número do estoque. Próximo: `devolucao/leitura.py` com a primeira extração real.
 
 ## Próximos passos combinados
 
