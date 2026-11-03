@@ -1,4 +1,4 @@
-# CLAUDE.md — estoque-dsr
+# CLAUDE.md — DSR Estoque e Devolução
 
 Contexto para o Claude Code trabalhar neste projeto.
 
@@ -58,6 +58,15 @@ deles se a mudança de número for intencional e explicada.
 Painel com paleta e fontes próprias (Archivo, Public Sans, IBM Plex Mono embutidas de `fontes/`),
 tema claro e escuro, funciona no celular (testado em 390 px sem rolagem lateral). O relatório PDF tem
 8 páginas A4; ao adicionar seções, confira que continua sem página sobrando só com rodapé.
+
+## Duas análises no mesmo repositório
+
+- **Estoque** (pronta): pacote `estoque/`, bases em `bases/`, textos em `analises/`.
+- **Devolução** (desenhada, não implementada): pacote `devolucao/`, bases em `bases_devolucao/`,
+  textos em `analises_devolucao/`. Desenho completo, indicadores, extrações e ordem de construção em
+  `docs/devolucao-estrutura.md`; rascunho de consulta em `sql/devolucao_clientes.sql`.
+  O primeiro passo é extrair o que é comum (formato, bases, página/PDF, Excel) para `comum/` sem
+  mudar nenhum número do estoque; os testes atuais garantem isso.
 
 ## Próximos passos combinados
 

@@ -1,0 +1,1 @@
+Extrações de devolução (AAAA-MM-DD.xlsx). Formato em docs/devolucao-estrutura.md.
