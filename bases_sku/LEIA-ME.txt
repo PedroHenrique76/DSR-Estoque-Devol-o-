@@ -1,0 +1,1 @@
+Extrações por SKU (AAAA-MM-DD.xlsx). Formato em docs/proximo-passo-sku.md.

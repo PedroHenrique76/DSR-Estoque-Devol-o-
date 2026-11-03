@@ -61,7 +61,9 @@ tema claro e escuro, funciona no celular (testado em 390 px sem rolagem lateral)
 
 ## Próximos passos combinados
 
-1. Ler direto do Oracle do Winthor em vez da planilha (falta a consulta SQL que gera a exportação).
-2. Descer ao nível SKU para Flora, L'Oréal, Colgate e Bombril (validade, curva interna, lead time).
+1. **Em andamento: análise por SKU.** Roteiro, formato da extração e prioridades em
+   `docs/proximo-passo-sku.md`; rascunho da consulta Winthor em `sql/extracao_sku.sql` (a validar).
+   As extrações vão para `bases_sku/`. A soma por fornecedor tem de bater com a base por fornecedor.
+2. Ler direto do Oracle do Winthor em vez da planilha (falta a consulta SQL que gera a exportação).
 3. Custo por m² do CD com o custo mensal da operação e a ocupação por fornecedor (posições ou m²).
 4. Explicar a queda de margem de 01/10 para 03/11 (preço, custo, desconto, mix).
