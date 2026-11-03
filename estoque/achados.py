@@ -15,7 +15,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-from . import formato as f
+from comum import formato as f
 from .indicadores import Analise
 
 

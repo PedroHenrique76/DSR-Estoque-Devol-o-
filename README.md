@@ -93,7 +93,7 @@ estoque/leitura.py     leitura e limpeza da planilha (linhas Total, CODFORNEC, d
 estoque/indicadores.py cobertura, margem, GMROI, ABC, excesso, comparação, grupos
 estoque/achados.py     regras que escrevem achados, destaque, plano e observações
 estoque/render.py      painel HTML, relatório PDF, planilha Excel
-estoque/formato.py     números no padrão brasileiro
+comum/                 partes compartilhadas: formato (padrão brasileiro), bases, página/PDF, Excel
 templates/             HTML, CSS e JavaScript do painel e do relatório
 fontes/                fontes embutidas (licença OFL, ver arquivos LICENSE)
 testes/                conferência dos números das análises entregues
