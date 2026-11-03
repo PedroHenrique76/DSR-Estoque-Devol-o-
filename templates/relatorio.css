@@ -1,0 +1,47 @@
+/* ---- versão PDF ---- */
+@page{size:A4;margin:13mm 12mm 15mm}
+html,body{background:#ffffff}
+body{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:13.5px}
+.wrap{max-width:none;padding:0;gap:22px}
+.kpis{grid-template-columns:repeat(3,minmax(0,1fr))}
+.kpi b{font-size:1.55rem}
+#m2{grid-template-columns:repeat(4,minmax(0,1fr))}
+#m2 .kpi b{font-size:1.3rem}
+.trend{grid-template-columns:repeat(2,minmax(0,1fr))}
+.panel{break-inside:avoid}
+.flow,.plan{break-inside:auto}
+.findings li,.phase,.tcard,.quad,tr,.bar-row,.kpi,.callout{break-inside:avoid}
+h2,h3,section>p.muted{break-after:avoid}
+.bar-row:hover,tbody tr:hover{background:none}
+.chart{overflow:visible}
+.tbl{max-height:none;overflow:visible}
+.matrix{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.quad{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px;display:grid;gap:8px;align-content:start;border-top:4px solid var(--line)}
+.q-crit{border-top-color:var(--crit)} .q-warn{border-top-color:var(--warn)} .q-serious{border-top-color:var(--serious)} .q-good{border-top-color:var(--good)}
+.t-serious{color:var(--serious)}
+.qh{display:grid;gap:3px}
+.qh .pill{justify-self:start;font-size:.75rem;padding:2px 8px}
+.qd{font-size:.8rem;color:var(--ink-2)}
+.qt{font-family:var(--mono);font-size:.74rem;color:var(--ink)}
+table.qtab,table.ctab,table.ptab{min-width:0;width:100%;font-size:.8rem}
+.qtab th,.qtab td{padding:4px 6px}
+.qtab th:first-child,.qtab td:first-child{min-width:0;white-space:nowrap}
+.ctab th,.ctab td{padding:7px 10px}
+.ctab th:first-child,.ctab td:first-child{min-width:0}
+.ctab tr.hl td{background:var(--accent-soft);font-weight:600}
+.ctwrap{border:1px solid var(--line);border-radius:6px;overflow:hidden}
+thead th{position:static;font-family:var(--mono);font-size:.66rem;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-3);font-weight:500}
+.ptab{font-size:.76rem}
+.ptab th,.ptab td{padding:5px 7px}
+.ptab th:first-child,.ptab td:first-child{min-width:0;white-space:nowrap}
+.ptab thead{display:table-header-group}
+.callout{background:#fbf7ec}
+header{padding-bottom:14px}
+.newpage{break-before:page}
+.keep{break-inside:avoid}
+.phase ol{gap:8px;padding:12px 12px 12px 30px}
+.notes{gap:2px;font-size:.74rem}
+.phase li p{font-size:.78rem;line-height:1.45}
+.phase ol{gap:6px}
+.phase>div:first-child{padding:12px}
+.rodape{display:none}

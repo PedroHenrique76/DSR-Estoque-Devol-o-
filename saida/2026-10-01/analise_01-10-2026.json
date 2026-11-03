@@ -1,0 +1,77 @@
+{
+  "achados": [
+    {
+      "classe": "info",
+      "tag": "foto inicial",
+      "html": "<b>Primeira foto da série.</b> Estoque de R$ 72,1 mi para uma venda de R$ 31,7 mi no mês: 68 dias de cobertura, GMROI 0,79 e R$ 25,4 mi acima de 45 dias."
+    },
+    {
+      "classe": "warn",
+      "tag": "margem negativa",
+      "html": "<b>2 fornecedor(es) vendendo abaixo do custo:</b> Petrópolis (0,0%, R$ 1,0 mi em estoque) e J.G.S.M (−1,8%, R$ 85 mil em estoque). Só faz sentido com acordo da indústria ou consignação."
+    },
+    {
+      "classe": "info",
+      "tag": "ruptura",
+      "html": "Coop Central Gaúcha (2 dias), Bunge Alimentos (1 dias) e Coop. Arrozeira Extremo Sul (0 dias) estão com menos de 10 dias de cobertura, mas com margem abaixo de 10%, então a falta pesa pouco. Perfumes Dana do Brasil (5 dias, margem 18,3%) e L R Nordeste (3 dias, margem 21,0%) merecem reposição, com teto de cobertura."
+    },
+    {
+      "classe": "info",
+      "tag": "cauda",
+      "html": "70 fornecedores sem venda, com 228 SKUs e R$ 98 mil em estoque. 15 acima de 180 dias somam R$ 1,9 mi."
+    }
+  ],
+  "destaque": null,
+  "plano": [
+    {
+      "prazo": "Até a próxima foto",
+      "titulo": "Explicar e travar",
+      "itens": [
+        {
+          "titulo": "Tratar as margens negativas.",
+          "texto": "Petrópolis (0,0%) e J.G.S.M (−1,8%). Vender abaixo do custo só com acordo da indústria."
+        },
+        {
+          "titulo": "Repor Perfumes Dana do Brasil e L R Nordeste com teto de cobertura.",
+          "texto": "Margem acima de 10% e menos de 10 dias de cobertura. Repor até a cobertura-alvo, não por lote."
+        }
+      ]
+    },
+    {
+      "prazo": "30–60 dias",
+      "titulo": "Regra de compra",
+      "itens": [
+        {
+          "titulo": "Aprovação obrigatória acima da cobertura-alvo.",
+          "texto": "Nenhum pedido que deixe o fornecedor acima do alvo sai sem aprovação de quem responde pelo estoque, incluindo compras de fechamento. Ponto de partida: curva A 35–45 dias, B 45–60, C sob demanda, ajustado pelo lead time de cada indústria."
+        },
+        {
+          "titulo": "Teto de cobertura para reposição.",
+          "texto": "A sugestão de compra deve mirar a cobertura-alvo, não um lote arbitrário."
+        },
+        {
+          "titulo": "Revisar margem dos fornecedores abaixo de 10%.",
+          "texto": "R$ 3,3 mi em estoque (4,5% do total). Os piores: J.G.S.M (−1,8%), Petrópolis (0,0%), Coop. Arrozeira Extremo Sul (0,4%), Bunge Alimentos (0,5%), Olim (3,3%), Coop Central Gaúcha (3,9%) e Laticínios Bela Vista (4,2%)."
+        }
+      ]
+    },
+    {
+      "prazo": "60–90 dias",
+      "titulo": "Limpar e medir",
+      "itens": [
+        {
+          "titulo": "Liquidar a cauda parada.",
+          "texto": "15 fornecedores acima de 180 dias somam R$ 1,9 mi: Petrópolis, CRS Brands, Copobras, Los Valles, Pitu, Mili, Casa Pontinha e outros."
+        },
+        {
+          "titulo": "Inativar o que não vende.",
+          "texto": "70 fornecedores e 228 SKUs sem venda, com R$ 98 mil em estoque: inativar cadastro e liberar endereços de picking."
+        },
+        {
+          "titulo": "Medir o custo por m² do CD.",
+          "texto": "Com o custo mensal da operação e a ocupação por fornecedor (posições ou m²), calcular quanto da margem o CD consome e quais fornecedores pagam o espaço que ocupam."
+        }
+      ]
+    }
+  ]
+}

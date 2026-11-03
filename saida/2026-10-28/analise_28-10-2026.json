@@ -1,0 +1,115 @@
+{
+  "achados": [
+    {
+      "classe": "crit",
+      "tag": "evolução",
+      "html": "<b>O estoque voltou a subir e devolveu toda a melhora da quinzena anterior.</b> R$ 76,4 mi em 28/10, alta de R$ 5,75 mi em 12 dias e o maior valor das três fotos. A venda subiu só 0,8%. Cobertura de 65 para 70 dias, GMROI de 0,88 para 0,80 e capital acima de 45 dias de R$ 22,5 mi para R$ 28,1 mi."
+    },
+    {
+      "classe": "crit",
+      "tag": "concentração",
+      "html": "<b>Unilever e L’Oréal explicam 94% do aumento.</b> Unilever +R$ 3,4 mi (de 50 para 59 dias). L’Oréal +R$ 2,0 mi (de 67 para 81 dias) e devolveu metade da redução feita no início do mês. Na quinzena anterior foi o contrário: os grandes caíram e os pequenos subiram. Agora 76 fornecedores reduziram (−R$ 2,6 mi) e os dois maiores encheram. Com 1,2% a.m., esses R$ 5,4 mi extras custam cerca de R$ 65 mil por mês para carregar."
+    },
+    {
+      "classe": "warn",
+      "tag": "calendário",
+      "html": "<b>Parte desse movimento pode ser data de corte, não decisão de compra.</b> 16/10 é meio de mês; 28/10 é fechamento, quando a indústria empurra volume para bater meta. Comparar as duas fotos mistura o efeito do calendário com o efeito da gestão. A melhora de 16/10 também pode ter sido em parte só o ponto baixo do ciclo."
+    },
+    {
+      "classe": "warn",
+      "tag": "margem",
+      "html": "<b>A margem confirmou a suspeita de 16/10.</b> Caiu de 16,0% para 15,5%. Unilever foi de 15,0% para 13,8% (era 12,3% em 01/10) e Colgate de 20,3% para 18,3%. O salto da quinzena anterior foi em parte pontual. L’Oréal fez o caminho inverso: margem de 17,3% para 19,6% junto com o estoque subindo, o que é compatível com compra feita com desconto. Se for isso, é a contrapartida que justifica parte do volume."
+    },
+    {
+      "classe": "crit",
+      "tag": "Flora",
+      "html": "<b>Terceira foto seguida piorando.</b> Os 4 cadastros somam R$ 5,24 mi de estoque e 123 dias de cobertura (eram 96 em 01/10 e 109 em 16/10). Excesso de R$ 3,3 mi acima de 45 dias, GMROI 0,41. A trava de compra recomendada em 16/10 não aconteceu ou não funcionou."
+    },
+    {
+      "classe": "warn",
+      "tag": "compras",
+      "html": "<b>Entraram compras sem giro que as justifique.</b> Arrozeira Pelotas: R$ 101 mil em estoque para R$ 839 de venda. Angelo Auricchio: +R$ 205 mil, de 52 para 200 dias. Laticínios Bela Vista: +R$ 205 mil com margem de 3,4% e GMROI 0,22. E Perfumes Dana, que estava com 5 dias e precisava de reposição, foi para 103 dias (de R$ 6 mil para R$ 133 mil). A reposição passou muito do ponto."
+    },
+    {
+      "classe": "good",
+      "tag": "avanços",
+      "html": "<b>O que melhorou.</b> A curva B caiu de 76 para 69 dias. Embelleze (−R$ 235 mil, de 81 para 61 dias) e Vinícola Campestre (−R$ 219 mil) reduziram. Petrópolis foi de 208 para 153 dias, mas a margem segue negativa. Nova Mix caiu de 178 para 148 dias e Siena de 567 para 341. Haleon foi de 720 para 178 dias porque a venda subiu de R$ 7 mil para R$ 37 mil: o lançamento está ganhando tração."
+    },
+    {
+      "classe": "info",
+      "tag": "ruptura",
+      "html": "Coop Central Gaúcha e Olim têm 4 dias de cobertura, mas margem de ~4%, então a falta pesa pouco. ASA Ind. e Com. tem 7 dias com margem de 12% e merece atenção."
+    }
+  ],
+  "destaque": {
+    "titulo": "Duas quinzenas, dois movimentos opostos",
+    "paragrafos": [
+      "Na primeira quinzena os grandes reduziram e a base pequena e média encheu. Na segunda, a base reduziu e os grandes encheram. O estoque está seguindo o calendário de cada indústria, não uma regra da DSR. Enquanto um pedido puder deixar o fornecedor acima da cobertura-alvo sem aprovação, o número total vai oscilar a cada fechamento de mês.",
+      "Compra de fechamento pode valer a pena. A conta é a mesma: com 1,2% a.m., levar Unilever de 50 para 59 dias (cerca de 0,3 mês a mais) só se paga com desconto acima de ~0,4% sobre a compra; L’Oréal, de 67 para 81 dias, acima de ~0,6%. São barras baixas. Se a compra veio sem nenhuma condição, a DSR financiou a meta da indústria."
+    ]
+  },
+  "plano": [
+    {
+      "prazo": "Próximos 15 dias",
+      "titulo": "Explicar e travar",
+      "itens": [
+        {
+          "titulo": "Abrir as compras de Unilever e L’Oréal da quinzena.",
+          "texto": "Pedidos, datas e condição comercial (desconto, prazo, verba). Se houve contrapartida acima do custo de carregar, definir até quando o estoque volta para 50 e 67 dias. Se não houve, foi volume empurrado e precisa entrar na pauta com a indústria."
+        },
+        {
+          "titulo": "Travar Flora de verdade, com um responsável nomeado.",
+          "texto": "Três fotos seguidas piorando: 96, 109 e 123 dias. Bloquear a sugestão de compra no Winthor para os 4 cadastros e confirmar na próxima foto que nenhum pedido entrou."
+        },
+        {
+          "titulo": "Explicar as compras sem giro.",
+          "texto": "Arrozeira Pelotas, Angelo Auricchio, Laticínios Bela Vista e Perfumes Dana. Quem aprovou, com base em qual previsão de venda, e se há direito de troca."
+        },
+        {
+          "titulo": "Fixar a data de corte das extrações.",
+          "texto": "Sempre no mesmo dia útil do mês (por exemplo, o último), para comparar fechamento com fechamento. Assim a evolução mostra gestão, não calendário."
+        },
+        {
+          "titulo": "Fechar o caso Petrópolis.",
+          "texto": "A cobertura melhorou (153 dias), mas a margem continua negativa com R$ 897 mil em estoque. Vender com margem negativa só faz sentido se for consignação ou acordo com a indústria."
+        }
+      ]
+    },
+    {
+      "prazo": "30–60 dias",
+      "titulo": "Regra de compra",
+      "itens": [
+        {
+          "titulo": "Aprovação obrigatória acima da cobertura-alvo.",
+          "texto": "Nenhum pedido que deixe o fornecedor acima do alvo sai sem aprovação de quem responde pelo estoque. Compra de fechamento com desconto passa pela mesma aprovação, com a conta do desconto contra o custo de carregar. Ponto de partida: curva A 35–45 dias, B 45–60, C sob demanda, ajustado pelo lead time de cada indústria."
+        },
+        {
+          "titulo": "Teto de cobertura para reposição.",
+          "texto": "O caso Perfumes Dana mostra que repor sem limite troca o risco de ruptura pelo de excesso. A sugestão de compra deve mirar a cobertura-alvo, não um lote mínimo arbitrário."
+        },
+        {
+          "titulo": "Revisar margem dos fornecedores abaixo de 10%.",
+          "texto": "R$ 3,4 mi em estoque. Os piores: Petrópolis e J.G.S.M (negativas), Santa Maria (3,1%), Bela Vista (3,4%), Siena (7,1%) e La Violetera (7,5%, com 139 dias)."
+        }
+      ]
+    },
+    {
+      "prazo": "60–90 dias",
+      "titulo": "Limpar e acompanhar",
+      "itens": [
+        {
+          "titulo": "Liquidar a cauda parada.",
+          "texto": "19 fornecedores com cobertura acima de 180 dias somam R$ 2,3 mi: Flora Dist., Siena, Angelo Auricchio, CRS Brands, Copobras, Arrozeira Pelotas, Los Valles, Pitu, Casa Pontinha, Mili e outros."
+        },
+        {
+          "titulo": "Inativar o que não vende.",
+          "texto": "69 fornecedores e 229 SKUs sem venda, com R$ 142 mil em estoque: inativar cadastro e liberar endereços de picking."
+        },
+        {
+          "titulo": "Medir o custo por m² do CD.",
+          "texto": "Com o custo mensal da operação e a ocupação por fornecedor (posições ou m²), calcular quanto da margem o CD consome e quais fornecedores pagam o espaço que ocupam."
+        }
+      ]
+    }
+  ]
+}

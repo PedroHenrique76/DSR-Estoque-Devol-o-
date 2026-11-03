@@ -1,0 +1,153 @@
+<div class="wrap">
+<header>
+  <span class="eyebrow">{{EMPRESA}} · {{UNIDADE}} · Gestão estratégica de estoque</span>
+  <h1>Estoque, giro e margem por fornecedor</h1>
+  <div class="meta">{{META}}</div>
+</header>
+
+<div class="kpis" id="kpis"></div>
+
+<section>
+  <h2>O que os números dizem</h2>
+  <div class="panel flow">
+    <ul class="findings">
+{{ACHADOS}}
+    </ul>
+  </div>
+</section>
+
+<!--SE:evol-->
+<section class="keep">
+  <h2>Evolução nas fotos</h2>
+  <p class="muted small">{{EVOL_SUB}}</p>
+  <div class="trend" id="trend"></div>
+</section>
+<!--FIM:evol-->
+
+<section class="keep">
+  <h2>O CD por metro quadrado</h2>
+  <p class="muted small">Divisão pelos {{AREA}} m² totais do CD. Para chegar ao custo por m² e à parcela da margem consumida pelo CD, falta o custo mensal da operação.</p>
+  <div class="kpis" id="m2"></div>
+</section>
+
+<!--SE:comp-->
+<section>
+  <h2>O que mudou desde {{COMP}}</h2>
+  <p class="muted small">Variação do valor em estoque por fornecedor, maiores reduções e maiores aumentos, com a cobertura {{COMP}} → {{ATUAL}}.<!--SE:painel--> Toque ou passe o mouse em uma linha para ver os detalhes.<!--FIM:painel--></p>
+  <div class="panel">
+    <div class="legend"><span><i style="background:var(--accent)"></i>Estoque reduziu</span><span><i style="background:var(--s2)"></i>Estoque aumentou</span></div>
+    <div class="chart" id="c-delta"></div>
+  </div>
+</section>
+<!--FIM:comp-->
+
+<section>
+  <h2>Peso no estoque × peso na venda</h2>
+  <p class="muted small">15 maiores fornecedores por venda. Quando a barra de estoque passa a de venda, o fornecedor prende mais capital do que a sua participação no faturamento justifica.</p>
+  <div class="panel">
+    <div class="legend"><span><i style="background:var(--accent)"></i>% da venda</span><span><i style="background:var(--s2)"></i>% do estoque</span></div>
+    <div class="chart" id="c-share"></div>
+  </div>
+</section>
+
+<!--SE:painel-->
+<section>
+  <h2>Mapa de cobertura × margem</h2>
+  <p class="muted small">Fornecedores com venda acima de {{VMIN}}/mês. Tamanho do círculo = valor em estoque. Linhas de referência: {{ALVO}} dias de cobertura e margem média de {{MEDIA}}.</p>
+  <div class="panel">
+    <div class="legend">
+      <span><i style="background:var(--crit)"></i>Reduzir primeiro: cobertura alta, margem abaixo da média</span>
+      <span><i style="background:var(--warn)"></i>Rever cobertura: margem boa, giro lento</span>
+      <span><i style="background:var(--serious)"></i>Rever preço ou mix: giro bom, margem baixa</span>
+      <span><i style="background:var(--good)"></i>Saudável</span>
+    </div>
+    <div class="chart" id="c-map"></div>
+  </div>
+</section>
+
+<section>
+  <h2>Simulador de capital liberável</h2>
+  <p class="muted small">Ajuste a cobertura-alvo e o custo do dinheiro. O excesso é o estoque acima de (venda diária × dias-alvo), por fornecedor com venda no mês.</p>
+  <div class="panel sim">
+    <div class="ctrl">
+      <label for="tgt">Cobertura-alvo <output id="tgt-o"></output><input id="tgt" type="range" min="20" max="90" step="5"></label>
+      <label for="cc">Custo de capital <output id="cc-o"></output><input id="cc" type="range" min="0.5" max="2.5" step="0.1"></label>
+      <div class="simout" id="simout"></div>
+      <p class="small muted">Custo de capital é uma premissa. Substitua pela taxa real de financiamento ou de oportunidade da empresa.</p>
+    </div>
+    <div style="min-width:0;display:grid;gap:8px">
+      <h3>Maiores excessos na cobertura-alvo</h3>
+      <div class="chart" id="c-exc"></div>
+    </div>
+  </div>
+</section>
+<!--FIM:painel-->
+
+<!--SE:relatorio-->
+<section class="keep">
+  <h2>Matriz cobertura × margem</h2>
+  <p class="muted small">Fornecedores com venda acima de {{VMIN}}/mês, separados pelos limites de {{ALVO}} dias de cobertura e margem média de {{MEDIA}}. Em cada quadrante, os maiores em valor de estoque.</p>
+  <div class="matrix" id="matrix"></div>
+</section>
+
+<section>
+  <h2>Capital liberável por cobertura-alvo</h2>
+  <p class="muted small">Estoque acima de (venda diária × dias-alvo), por fornecedor com venda no mês. Custo de carregar calculado a {{CC}} a.m., premissa a substituir pela taxa real da empresa.</p>
+  <div class="panel">
+    <div id="captab" class="ctwrap"></div>
+    <h3>Maiores excessos acima de {{ALVO}} dias</h3>
+    <div class="chart" id="c-exc"></div>
+  </div>
+</section>
+<!--FIM:relatorio-->
+
+{{DESTAQUE}}
+
+<!--SE:painel-->
+<section>
+  <h2>Fornecedores com venda no mês</h2>
+  <div class="panel">
+    <div class="toolbar">
+      <input id="q" type="search" placeholder="Buscar fornecedor" aria-label="Buscar fornecedor">
+      <select id="ord" class="mob" aria-label="Ordenar por"><option value="v">Ordenar: venda</option><option value="e">Ordenar: estoque</option><option value="de">Ordenar: Δ estoque</option><option value="dde">Ordenar: cobertura</option><option value="xa">Ordenar: excesso</option><option value="mp">Ordenar: margem %</option><option value="g">Ordenar: GMROI</option><option value="f">Ordenar: nome</option></select>
+      <button class="chip" data-f="all" aria-pressed="true">Todos</button>
+      <button class="chip" data-f="A" aria-pressed="false">Curva A</button>
+      <button class="chip" data-f="B" aria-pressed="false">Curva B</button>
+      <button class="chip" data-f="C" aria-pressed="false">Curva C</button>
+      <button class="chip" data-f="up" aria-pressed="false">Estoque subiu</button>
+      <button class="chip" data-f="exc" aria-pressed="false">Acima de 90 dias</button>
+      <button class="chip" data-f="low" aria-pressed="false">Margem &lt; {{MARGEM_BAIXA}}</button>
+    </div>
+    <div class="tbl"><table><thead><tr id="th"></tr></thead><tbody id="tb"></tbody></table></div>
+    <button id="more" class="chip more" hidden></button>
+    <p class="small muted" id="tcount"></p>
+  </div>
+</section>
+<!--FIM:painel-->
+
+<!--SE:relatorio-->
+<section>
+  <h2>30 maiores fornecedores por venda</h2>
+  <p class="muted small" id="topnote"></p>
+  <div class="panel flow">
+    <div class="tbl"><table class="ptab"><thead id="ptab-head"></thead><tbody id="tb"></tbody></table></div>
+  </div>
+</section>
+<!--FIM:relatorio-->
+
+<section class="newpage">
+  <h2>Plano de ação</h2>
+  <div class="plan">
+{{PLANO}}
+  </div>
+</section>
+
+<section>
+  <h3>Premissas e limites</h3>
+  <ul class="notes">
+{{OBS}}
+  </ul>
+  <p class="small muted rodape">{{RODAPE}}</p>
+</section>
+</div>
+<div id="tip" hidden></div>

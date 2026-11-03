@@ -1,0 +1,124 @@
+{
+  "_sobre": "Análise revisada à mão em 03/11/2026. Cada chave presente aqui substitui o texto automático; apague uma chave para voltar ao automático.",
+  "achados": [
+    {
+      "classe": "good",
+      "tag": "mês contra mês",
+      "html": "<b>Pela primeira vez dá para comparar fotos do mesmo ponto do mês, e o resultado é positivo no estoque.</b> De 01/10 para 03/11 (ambas no início do mês), o estoque caiu R$ 1,5 mi (de R$ 72,1 mi para R$ 70,6 mi) enquanto a venda subiu 5,5%. A cobertura foi de 68 para 63 dias, a melhor das quatro fotos, e o capital acima de 45 dias caiu de R$ 25,4 mi para R$ 21,7 mi."
+    },
+    {
+      "classe": "crit",
+      "tag": "margem",
+      "html": "<b>A margem é agora o problema principal: 14,3%, a mais baixa das quatro fotos.</b> A venda subiu R$ 1,7 mi no mês, mas a margem bruta em reais ficou praticamente igual (+R$ 50 mil). Unilever está em 11,9% (era 12,3% em 01/10 e 13,8% em 28/10), Colgate em 16,8% (era 18,0%) e L’Oréal em 17,7% (era 19,6% em 28/10). Fora desses três a margem também caiu, de 14,7% para 14,3%, então não é só mix. Vender mais com a mesma margem em reais pode indicar estoque escoado com desconto, aumento de custo não repassado ou mudança de preço. Precisa ser separado antes da próxima foto."
+    },
+    {
+      "classe": "warn",
+      "tag": "calendário",
+      "html": "<b>A suspeita de 28/10 se confirmou.</b> Os R$ 5,8 mi que entraram no fechamento saíram em 6 dias: Unilever voltou de 59 para 50 dias e L’Oréal de 81 para 64. O estoque de 03/11 é igual ao de 16/10. A piora de 28/10 era em boa parte calendário de compra. Por outro lado, se aquelas compras tivessem vindo com desconto, a margem deveria ter subido ao vender o volume. Ela caiu."
+    },
+    {
+      "classe": "good",
+      "tag": "avanços",
+      "html": "<b>L’Oréal é o melhor resultado do mês:</b> de 92 para 64 dias, −R$ 2,9 mi de estoque em relação a 01/10, com margem praticamente estável (18,6% → 17,7%). Também melhoraram Marilan (96 → 53 dias), Vinícola Campestre (112 → 67), Embelleze (64 → 40), Petrópolis (249 → 136, margem ainda negativa) e Siena (567 dias em 16/10, 214 agora). Haleon está com 82 dias, venda de R$ 60 mil e margem de 26%: o lançamento funcionou."
+    },
+    {
+      "classe": "crit",
+      "tag": "Flora",
+      "html": "<b>Quarta foto sem melhora.</b> Os 4 cadastros somam R$ 5,2 mi de estoque e 125 dias de cobertura (96 → 109 → 123 → 125). São R$ 3,3 mi acima de 45 dias, o 2º maior excesso da base, com GMROI 0,39. A trava de compra recomendada desde 16/10 não aconteceu."
+    },
+    {
+      "classe": "warn",
+      "tag": "compras",
+      "html": "<b>Entraram compras sem giro que as justifique.</b> Mili tem R$ 215 mil em estoque para R$ 3 mil de venda por mês (+R$ 153 mil em 6 dias). Salon Line subiu R$ 611 mil no mês (65 → 82 dias), B S Distribuidora R$ 414 mil (71 → 102 dias) e Heinz foi de 38 para 70 dias. Laticínios Bela Vista dobrou o estoque desde 16/10 (de R$ 311 mil para R$ 642 mil), com margem de 3,1% e GMROI 0,19. Bombril está com 96 dias porque a venda caiu 23% no mês e o estoque não acompanhou."
+    },
+    {
+      "classe": "info",
+      "tag": "ruptura",
+      "html": "Coop Arrozeira Extremo Sul vende R$ 60 mil/mês e está praticamente zerada; Josapar, Olim e Coop Gaúcha têm de 2 a 4 dias. Todos com margem abaixo de 8%, então a falta pesa pouco. Nutrimental (9 dias, margem 17,9%) e ASA Ind. e Com. (6 dias, 11,7%) merecem reposição, desta vez com teto de cobertura."
+    },
+    {
+      "classe": "info",
+      "tag": "cauda",
+      "html": "A curva C caiu de 85 para 75 dias no mês. Os fornecedores sem venda passaram de 70 para 63, e 5 saíram da base (todos sem venda e com menos de R$ 500 em estoque). Se isso foi inativação, a limpeza começou. Acima de 180 dias restam 14 fornecedores com R$ 1,2 mi (eram 19 e R$ 2,3 mi em 28/10)."
+    }
+  ],
+  "destaque": {
+    "titulo": "O estoque está melhorando; a margem, não",
+    "paragrafos": [
+      "No mês, a DSR vendeu R$ 1,7 mi a mais com R$ 1,5 mi a menos de estoque. Isso é bom. Mas a margem bruta em reais ficou parada, e o GMROI só melhorou de 0,79 para 0,81, porque a margem caiu na mesma medida em que o estoque girou. Se o estoque foi escoado com desconto, a melhora de cobertura foi comprada com margem.",
+      "A conta de referência: cada 0,1 ponto de margem sobre a venda atual vale cerca de R$ 33 mil por mês. A queda de 0,6 ponto desde 01/10 equivale a uns R$ 210 mil por mês, mais do que os R$ 18 mil mensais que se economiza ao carregar R$ 1,5 mi a menos de estoque (a 1,2% a.m.)."
+    ]
+  },
+  "plano": [
+    {
+      "prazo": "Até a próxima foto",
+      "titulo": "Explicar e travar",
+      "itens": [
+        {
+          "titulo": "Explicar a queda de margem de Unilever, Colgate e L’Oréal.",
+          "texto": "Separar preço de venda, custo de compra, desconto de sell-out e mix. Os três juntos explicam R$ 246 mil da queda de margem em 6 dias. Se o volume do fechamento saiu com desconto, registrar quanto custou para comparar com a condição obtida na compra."
+        },
+        {
+          "titulo": "Travar Flora com um responsável nomeado.",
+          "texto": "Quatro fotos sem melhora: 96, 109, 123 e 125 dias. Bloquear a sugestão de compra no Winthor para os 4 cadastros e conferir na próxima foto que nenhum pedido entrou."
+        },
+        {
+          "titulo": "Explicar as compras sem giro.",
+          "texto": "Mili, Salon Line, B S Distribuidora, Heinz e Bebidas Grassi. Quem aprovou, com qual previsão de venda, e se há direito de troca."
+        },
+        {
+          "titulo": "Decidir sobre Laticínios Bela Vista.",
+          "texto": "Estoque dobrou desde 16/10, com margem de 3,1% e GMROI 0,19. Renegociar custo ou reduzir o volume ao mínimo para não romper a venda."
+        },
+        {
+          "titulo": "Manter a extração no início do mês.",
+          "texto": "01/10 e 03/11 mostraram que essa é a comparação limpa. Fotos intermediárias servem para acompanhar, mas a avaliação do mês deve ser feita sempre no mesmo ponto."
+        },
+        {
+          "titulo": "Tratar as margens negativas.",
+          "texto": "Petrópolis (−1,0%, R$ 783 mil em estoque), Santa Maria (−2,2%) e J.G.S.M (−1,0%). Vender abaixo do custo só faz sentido com acordo da indústria."
+        }
+      ]
+    },
+    {
+      "prazo": "30–60 dias",
+      "titulo": "Regra de compra e de preço",
+      "itens": [
+        {
+          "titulo": "Aprovação obrigatória acima da cobertura-alvo.",
+          "texto": "Nenhum pedido que deixe o fornecedor acima do alvo sai sem aprovação de quem responde pelo estoque, incluindo compras de fechamento. Ponto de partida: curva A 35–45 dias, B 45–60, C sob demanda, ajustado pelo lead time de cada indústria."
+        },
+        {
+          "titulo": "Piso de margem para ações de escoamento.",
+          "texto": "Desconto para girar estoque passa por aprovação, com a conta do desconto contra o custo de carregar. Sem isso, reduzir cobertura vira troca de capital por margem."
+        },
+        {
+          "titulo": "Teto de cobertura para reposição.",
+          "texto": "A sugestão de compra deve mirar a cobertura-alvo, não um lote arbitrário. Vale para Nutrimental e ASA agora."
+        },
+        {
+          "titulo": "Revisar margem dos fornecedores abaixo de 10%.",
+          "texto": "R$ 3,5 mi em estoque (5% do total). Os piores: Petrópolis, Santa Maria e J.G.S.M (negativas), Bela Vista (3,1%), Copobras (5,5%), Siena (6,3%), Bracell (7,2%) e Sergyene (8,0%)."
+        }
+      ]
+    },
+    {
+      "prazo": "60–90 dias",
+      "titulo": "Limpar e medir",
+      "itens": [
+        {
+          "titulo": "Liquidar a cauda parada.",
+          "texto": "14 fornecedores acima de 180 dias somam R$ 1,2 mi: Siena, Mili, CRS Brands, Los Valles, Pitu, Casa Pontinha, Gazin e outros."
+        },
+        {
+          "titulo": "Continuar a inativação.",
+          "texto": "63 fornecedores e 185 SKUs sem venda, com R$ 113 mil em estoque: inativar cadastro e liberar endereços de picking."
+        },
+        {
+          "titulo": "Medir o custo por m² do CD.",
+          "texto": "Com o custo mensal da operação e a ocupação por fornecedor (posições ou m²), calcular quanto da margem o CD consome e quais fornecedores pagam o espaço que ocupam."
+        }
+      ]
+    }
+  ]
+}

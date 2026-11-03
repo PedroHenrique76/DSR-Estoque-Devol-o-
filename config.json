@@ -1,0 +1,237 @@
+{
+  "empresa": "DSR",
+  "unidade": "CD Bahia",
+  "area_m2": 9000,
+  "cobertura_alvo_dias": 45,
+  "custo_capital_mensal": 0.012,
+  "curva_abc": [
+    0.8,
+    0.95
+  ],
+  "venda_minima_mapa": 20000,
+  "limites": {
+    "cobertura_alta_dias": 90,
+    "cobertura_parada_dias": 180,
+    "cobertura_ruptura_dias": 10,
+    "margem_baixa": 0.1,
+    "aumento_relevante": 100000,
+    "venda_minima_ruptura": 20000
+  },
+  "comparacao": {
+    "_comentario": "mesmo_ponto_do_mes: compara com a base de ~1 mês antes (entre 25 e 40 dias). Se não houver, usa a base anterior.",
+    "modo": "mesmo_ponto_do_mes",
+    "janela_dias": [
+      25,
+      40
+    ]
+  },
+  "grupos": {
+    "_comentario": "Fornecedores com mais de um cadastro no Winthor. Somados nas análises de grupo.",
+    "Flora": [
+      "FLORA "
+    ],
+    "Pastifício Selmi": [
+      "PASTIFICIO SELMI"
+    ],
+    "Camil": [
+      "CAMIL ALIMENTOS"
+    ],
+    "JBS": [
+      "JBS S"
+    ],
+    "ASA": [
+      "ASA IND"
+    ],
+    "Unimarka": [
+      "UNIMARKA"
+    ],
+    "Nutrimental": [
+      "NUTRIMENTAL"
+    ],
+    "M. Dias Branco": [
+      "M DIAS BRANCO"
+    ]
+  },
+  "nomes_curtos": [
+    [
+      "LOREAL BRASIL COMERCIAL DE COSMETICOS LT INAT",
+      "L'ORÉAL (INATIVO)"
+    ],
+    [
+      "LOREAL BRASIL COMERCIAL DE COSMETICOS",
+      "L'ORÉAL"
+    ],
+    [
+      "SANTHER FAB DE PAPEL",
+      "SANTHER"
+    ],
+    [
+      "INDUSTRIAS REUNIDAS RAYMUNDO DA FONTE",
+      "RAYMUNDO DA FONTE"
+    ],
+    [
+      "CERVEJARIA PETROPOLIS",
+      "PETRÓPOLIS"
+    ],
+    [
+      "INDUSTRIA E COMERCIO SANTA MARIA",
+      "SANTA MARIA"
+    ],
+    [
+      "B S DISTRIBUIDORA DE PRODUTOS DE HIGIENE",
+      "B S DIST. HIGIENE"
+    ],
+    [
+      "IMPORTADORA DE FRUTAS LA VIOLETERA",
+      "LA VIOLETERA"
+    ],
+    [
+      "ANGELO AURICCHIO",
+      "ANGELO AURICCHIO"
+    ],
+    [
+      "FLORA PRODUTOS DE HIGIENE E LIMPEZA LTDA",
+      "FLORA (PRINCIPAL)"
+    ],
+    [
+      "FLORA DIST DE PROD DE HIG",
+      "FLORA DIST."
+    ],
+    [
+      "FLORA DISTRIBUIDORA DE PRODUTOS H&L",
+      "FLORA DISTRIBUIDORA H&L"
+    ],
+    [
+      "FLORA PRODUTOS DE HIGINE",
+      "FLORA S/A"
+    ],
+    [
+      "COLGATE PALMOLIVE",
+      "COLGATE PALMOLIVE"
+    ],
+    [
+      "UNILEVER BRASIL",
+      "UNILEVER"
+    ],
+    [
+      "NOVA MIX INDUSTRIAL",
+      "NOVA MIX"
+    ],
+    [
+      "SIENA INDUSTRIA",
+      "SIENA"
+    ],
+    [
+      "HALEON BRASIL",
+      "HALEON"
+    ],
+    [
+      "COOPERATIVA AGROINDUSTRIAL DOS PRODUTORES RURAIS",
+      "COOP. AGROIND. COLÔNIA"
+    ],
+    [
+      "COOPERATIVA ARROZEIRA EXTREMO SUL",
+      "COOP. ARROZEIRA EXTREMO SUL"
+    ],
+    [
+      "J.G.S.M INDUSTRIA",
+      "J.G.S.M"
+    ],
+    [
+      "ARROZEIRA PELOTAS",
+      "ARROZEIRA PELOTAS"
+    ],
+    [
+      "ERS INDUSTRIA E COMERCIO",
+      "ERS HIGIENE"
+    ],
+    [
+      "SOCIEDAD COMERCIAL LOS VALLES",
+      "LOS VALLES"
+    ],
+    [
+      "SOCIEDADE AGRICOLA CASA PONTINHA",
+      "CASA PONTINHA"
+    ],
+    [
+      "GAZIN IND",
+      "GAZIN"
+    ],
+    [
+      "COOP CENTRAL GAUCHA",
+      "COOP CENTRAL GAÚCHA"
+    ],
+    [
+      "ENGARRAFAMENTO PITU",
+      "PITU"
+    ],
+    [
+      "ENGARRAFAMENTO COROA",
+      "COROA"
+    ],
+    [
+      "CRS BRANDS",
+      "CRS BRANDS"
+    ],
+    [
+      "BEBIDAS GRASSI",
+      "BEBIDAS GRASSI"
+    ],
+    [
+      "VINICOLA CAMPESTRE",
+      "VINÍCOLA CAMPESTRE"
+    ],
+    [
+      "VINICOLA VENZ",
+      "VINÍCOLA VENZ"
+    ],
+    [
+      "LATICINIOS BELA VISTA",
+      "LATICÍNIOS BELA VISTA"
+    ],
+    [
+      "MARILAN ALIMENTOS",
+      "MARILAN"
+    ],
+    [
+      "PASTIFICIO SELMI",
+      "PASTIFÍCIO SELMI"
+    ],
+    [
+      "JOSAPAR",
+      "JOSAPAR"
+    ],
+    [
+      "OLIM AGRO",
+      "OLIM"
+    ],
+    [
+      "ASA IND",
+      "ASA"
+    ],
+    [
+      "NEUGEBAUER",
+      "NEUGEBAUER"
+    ],
+    [
+      "CAMIL ALIMENTOS",
+      "CAMIL"
+    ],
+    [
+      "DIST DE PROD ALIM SAO ROQUE",
+      "DIST. SÃO ROQUE"
+    ],
+    [
+      "ALGOBOM",
+      "ALGOBOM"
+    ],
+    [
+      "COMERCIAL DE FOSFOROS SAO LUIS",
+      "FÓSFOROS SÃO LUÍS"
+    ],
+    [
+      "INDUSTRIAS REUNIDAS RAYMUNDO",
+      "RAYMUNDO DA FONTE"
+    ]
+  ]
+}
