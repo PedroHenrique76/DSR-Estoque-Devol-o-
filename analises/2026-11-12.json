@@ -1,0 +1,129 @@
+{
+  "_sobre": "Análise revisada à mão em 12/11/2026. Cada chave presente aqui substitui o texto automático; apague uma chave para voltar ao automático. Comparação padrão com 16/10 (mesmo ponto do mês); o texto usa também 03/11 e 01/10, porque 16/10 tinha margem pontualmente alta.",
+  "achados": [
+    {
+      "classe": "crit",
+      "tag": "mês contra mês",
+      "html": "<b>O estoque voltou a subir e devolveu o ganho do mês.</b> De 16/10 para 12/11 (mesmo ponto do mês), o estoque foi de R$ 70,6 mi para R$ 77,1 mi com venda +3,3%; cobertura de 65 para 69 dias, GMROI de 0,88 para 0,73 e capital acima de 45 dias de R$ 22,5 mi para R$ 27,5 mi. Quase tudo entrou em 9 dias: desde 03/11, +R$ 6,5 mi com venda estável (33 fornecedores subiram R$ 9,2 mi, 69 caíram R$ 2,7 mi). Os 63 dias de 03/11, a melhor cobertura da série, duraram uma semana."
+    },
+    {
+      "classe": "crit",
+      "tag": "margem",
+      "html": "<b>A margem está em 14,1%, a mais baixa das 5 fotos, e a queda está em três fornecedores.</b> Desde 01/10 a venda subiu R$ 1,8 mi e a margem em reais ficou parada (−R$ 16 mil). A queda de 0,9 ponto vale cerca de R$ 287 mil por mês, R$ 265 mil deles em Colgate (18,0% → 14,8%, R$ 140 mil), Unilever (12,3% → 11,7%, R$ 68 mil) e L’Oréal (18,6% → 17,4%, R$ 57 mil). Fora dos três, a margem está estável (14,7% → 14,6%) e subiu desde 03/11 (14,3% → 14,6%): não é queda geral, como parecia em 03/11. Contra 16/10 (16,0%) a queda parece maior porque aquela foto tinha margem pontualmente alta."
+    },
+    {
+      "classe": "warn",
+      "tag": "Unilever",
+      "html": "<b>+R$ 2,8 mi em 9 dias, com a venda igual.</b> O estoque foi de R$ 18,1 mi para R$ 20,9 mi (50 → 58 dias). É o mesmo movimento de 28/10 (59 dias), que saiu em 6 dias. Se for compra de campanha, deve voltar para perto de 50 dias até a foto do início de dezembro; se não voltar, é estoque novo sem giro. A margem segue em 11,7%, então a compra não trouxe condição melhor."
+    },
+    {
+      "classe": "crit",
+      "tag": "Flora",
+      "html": "<b>Quinta foto sem melhora, e houve compra nova.</b> O cadastro principal foi de R$ 4,2 mi para R$ 5,4 mi em 9 dias (124 → 155 dias), com venda estável em R$ 1,0 mi. Os 4 cadastros somam R$ 6,4 mi, 151 dias de cobertura (96 → 109 → 123 → 125 → 151), R$ 4,5 mi acima de 45 dias (o 2º maior excesso da base) e GMROI 0,32. A trava recomendada desde 16/10 não aconteceu, e o pedido entrou mesmo assim."
+    },
+    {
+      "classe": "crit",
+      "tag": "Bombril",
+      "html": "<b>Quinta foto sem melhora (69 → 75 → 81 → 96 → 109 dias).</b> A venda caiu de R$ 980 mil para R$ 769 mil por mês desde 01/10 (−22%) e o estoque subiu de R$ 2,3 mi para R$ 2,8 mi, R$ 374 mil só desde 03/11. São R$ 1,6 mi acima de 45 dias, o 4º maior excesso da base."
+    },
+    {
+      "classe": "warn",
+      "tag": "compras",
+      "html": "<b>Entraram compras sem giro que as justifique, todas em 9 dias.</b> B S Dist. Higiene +R$ 771 mil (102 → 172 dias; R$ 768 mil em 01/10, R$ 2,0 mi hoje, para a mesma venda de R$ 340 mil). Embelleze +R$ 479 mil (40 → 78 dias), Pastifício Selmi +R$ 375 mil nos 2 cadastros (78 → 96 dias no principal), Marilan +R$ 283 mil (53 → 74) e Bebidas Grassi +R$ 225 mil (96 → 129), com margem caindo de 18,2% para 13,8% desde 16/10. Laticínios Bela Vista segue com R$ 618 mil e margem de 4,0%."
+    },
+    {
+      "classe": "good",
+      "tag": "avanços",
+      "html": "<b>Colgate, Petrópolis e Desodor reduziram, mas duas delas com margem.</b> Colgate foi de 63 para 55 dias (−R$ 1,1 mi; ver o destaque). Petrópolis foi de 136 para 47 dias (R$ 783 mil → R$ 449 mil), vendendo abaixo do custo (−1,1%): a liquidação sai com prejuízo. Desodor foi de 55 para 40 dias com margem estável. Mili escoou R$ 95 mil, mas a margem caiu de 21,9% para 4,0%."
+    },
+    {
+      "classe": "info",
+      "tag": "ruptura",
+      "html": "Coop Central Gaúcha (4 dias), Coop. Arrozeira Extremo Sul (1 dia) e Olim (2 dias) estão quase zeradas, com margem abaixo de 10%: a falta pesa pouco. O cadastro menor da ASA (5 dias, margem 11,6%) merece reposição. Nutrimental foi reposta de 9 para 52 dias, acima do alvo de 45: o teto de reposição ainda não é aplicado."
+    },
+    {
+      "classe": "info",
+      "tag": "cauda",
+      "html": "Desde 03/11 saíram 16 fornecedores, todos sem venda e com R$ 1,5 mil de estoque: a inativação está andando. Restam 48 sem venda (eram 63), com 145 SKUs e R$ 95 mil. Acima de 180 dias: 14 fornecedores com R$ 1,6 mi (eram 14 e R$ 1,2 mi em 03/11)."
+    }
+  ],
+  "destaque": {
+    "titulo": "A margem está pagando a redução de estoque",
+    "paragrafos": [
+      "Colgate é o caso mais claro. Desde 01/10 o estoque caiu R$ 1,9 mi (70 → 55 dias), e a margem caiu em todas as fotos desde 16/10: 20,3%, 18,3%, 16,8% e 14,8%. Carregar R$ 1,9 mi a menos economiza cerca de R$ 23 mil por mês (a 1,2% a.m.). Os 3,2 pontos de margem perdidos desde 01/10, sobre a venda de R$ 4,4 mi, custam cerca de R$ 140 mil por mês. Se a queda de margem é desconto para escoar estoque, a troca saiu seis vezes mais cara do que o ganho.",
+      "No total, a conta piorou dos dois lados. Desde 01/10 a DSR vende R$ 1,8 mi a mais por mês com a mesma margem em reais e R$ 5,0 mi a mais de estoque. Os R$ 6,5 mi que entraram desde 03/11 custam cerca de R$ 78 mil por mês para carregar, e cada 0,1 ponto de margem sobre a venda atual vale cerca de R$ 34 mil por mês."
+    ]
+  },
+  "plano": [
+    {
+      "prazo": "Até a próxima foto",
+      "titulo": "Travar, explicar e acompanhar",
+      "itens": [
+        {
+          "titulo": "Travar Flora e Bombril com um responsável nomeado.",
+          "texto": "Flora recebeu R$ 1,2 mi depois de três recomendações de trava: levantar o pedido, quem aprovou e se dá para devolver ou adiar. Bloquear a sugestão de compra nos 4 cadastros da Flora e na Bombril e conferir na próxima foto."
+        },
+        {
+          "titulo": "Explicar a margem da Colgate.",
+          "texto": "Quatro fotos de queda (20,3% → 14,8%). Separar preço, custo, desconto de escoamento e mix. Se for desconto para reduzir estoque, suspender: custa R$ 140 mil por mês para economizar R$ 23 mil."
+        },
+        {
+          "titulo": "Confirmar a compra da Unilever.",
+          "texto": "+R$ 2,8 mi em 9 dias: campanha, com qual condição e previsão de saída? Se no início de dezembro não voltar para perto de 50 dias, tratar como compra sem giro."
+        },
+        {
+          "titulo": "Explicar as compras sem giro.",
+          "texto": "B S Dist. Higiene (172 dias), Embelleze, Pastifício Selmi, Marilan e Bebidas Grassi: quem aprovou, com qual previsão e se há direito de troca."
+        },
+        {
+          "titulo": "Fechar a liquidação da Petrópolis com acordo.",
+          "texto": "Restam R$ 449 mil vendidos abaixo do custo (−1,1%): fechar com verba da indústria. Idem Santa Maria (−0,4%), J.G.S.M (−1,0%) e Arrozeira Pelotas (0,0%)."
+        },
+        {
+          "titulo": "Tirar a próxima foto entre 1º e 3 de dezembro.",
+          "texto": "Comparação limpa com 01/10 e 03/11; mostra se a Unilever voltou e se a trava da Flora funcionou."
+        }
+      ]
+    },
+    {
+      "prazo": "30–60 dias",
+      "titulo": "Regra de compra e de preço",
+      "itens": [
+        {
+          "titulo": "Aprovação obrigatória acima da cobertura-alvo.",
+          "texto": "Pedido que deixe o fornecedor acima do alvo, inclusive de campanha e de fechamento, só com aprovação de quem responde pelo estoque. Ponto de partida: curva A 35–45 dias, B 45–60, C sob demanda."
+        },
+        {
+          "titulo": "Piso de margem para ações de escoamento.",
+          "texto": "Desconto para girar estoque passa por aprovação, com a conta do desconto contra o custo de carregar. O caso Colgate mostra o custo de não fazer a conta."
+        },
+        {
+          "titulo": "Teto de cobertura para reposição.",
+          "texto": "A sugestão de compra mira a cobertura-alvo, não um lote. Nutrimental foi reposta para 52 dias; vale para a ASA agora."
+        },
+        {
+          "titulo": "Revisar margem dos fornecedores abaixo de 10%.",
+          "texto": "R$ 3,3 mi em estoque (4,3% do total). Piores: Petrópolis, J.G.S.M e Santa Maria (negativas), Arrozeira Pelotas, Coop. Arrozeira Extremo Sul, Coop Central Gaúcha e Laticínios Bela Vista (4,0%)."
+        }
+      ]
+    },
+    {
+      "prazo": "60–90 dias",
+      "titulo": "Limpar e medir",
+      "itens": [
+        {
+          "titulo": "Liquidar a cauda parada.",
+          "texto": "14 fornecedores acima de 180 dias somam R$ 1,6 mi: Siena, Grendene, CRS Brands, Mili, Los Valles, Casa Pontinha, Gazin e outros."
+        },
+        {
+          "titulo": "Terminar a inativação.",
+          "texto": "Restam 48 fornecedores sem venda, com 145 SKUs e R$ 95 mil: inativar cadastro e liberar endereços de picking."
+        },
+        {
+          "titulo": "Medir o custo por m² do CD.",
+          "texto": "Com o custo mensal da operação e a ocupação por fornecedor, calcular quanto da margem o CD consome e quem paga o espaço que ocupa."
+        }
+      ]
+    }
+  ]
+}

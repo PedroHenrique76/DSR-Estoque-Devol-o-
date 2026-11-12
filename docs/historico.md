@@ -10,6 +10,7 @@ Conclusões de cada foto e decisões de método, para quem for continuar a séri
 | 16/10 | R$ 70,6 mi | R$ 32,5 mi | 65 dias | 16,0% | 0,88 | R$ 22,5 mi |
 | 28/10 | R$ 76,4 mi | R$ 32,8 mi | 70 dias | 15,5% | 0,80 | R$ 28,1 mi |
 | 03/11 | R$ 70,6 mi | R$ 33,5 mi | 63 dias | 14,3% | 0,81 | R$ 21,7 mi |
+| 12/11 | R$ 77,1 mi | R$ 33,6 mi | 69 dias | 14,1% | 0,73 | R$ 27,5 mi |
 
 ## 01/10 — primeira foto
 
@@ -39,6 +40,16 @@ Conclusões de cada foto e decisões de método, para quem for continuar a séri
 - Margem 14,3%, a mais baixa da série. Venda +R$ 1,7 mi no mês com margem em reais estável (+R$ 50 mil). A queda aparece também fora dos três maiores, então não é só mix. Conta: −0,6 ponto de margem ≈ R$ 210 mil/mês, contra ~R$ 18 mil/mês de economia por carregar menos estoque.
 - Flora na quarta foto sem melhora (125 dias). Bombril também sem melhora em nenhuma foto (69 → 96 dias), identificado pela regra automática.
 - A base passou a vir com a coluna CODFORNEC e uma linha de detalhe repetida da Flora; a leitura descarta linhas de detalhe.
+
+## 12/11 — meio de mês, comparado com 16/10
+
+- Estoque +R$ 6,5 mi em 9 dias desde 03/11, com venda estável: a cobertura de 63 dias durou uma semana. Contra 16/10 (mesmo ponto do mês): 65 → 69 dias, GMROI 0,88 → 0,73.
+- Unilever +R$ 2,8 mi (50 → 58 dias), mesmo movimento de 28/10. Critério combinado: se não voltar para perto de 50 dias na foto de início de dezembro, é compra sem giro.
+- Margem 14,1%, a mais baixa da série. Correção da leitura de 03/11: desde 01/10 a queda de 0,9 ponto (≈ R$ 287 mil/mês) está em Colgate, Unilever e L'Oréal (R$ 265 mil); fora dos três a margem está estável (14,7% → 14,6%) e subiu desde 03/11.
+- Colgate: estoque −R$ 1,9 mi desde 01/10 (70 → 55 dias) com margem caindo em todas as fotos desde 16/10 (20,3% → 14,8%). Economia de capital ~R$ 23 mil/mês contra ~R$ 140 mil/mês de margem.
+- Flora na quinta foto sem melhora (151 dias) e com compra nova de R$ 1,2 mi no cadastro principal. Bombril também na quinta (109 dias), venda −22% desde 01/10.
+- Compras sem giro em 9 dias: B S Dist. Higiene (102 → 172 dias), Embelleze, Pastifício Selmi, Marilan, Bebidas Grassi. Petrópolis liquidando abaixo do custo (136 → 47 dias, margem −1,1%). Nutrimental reposta para 52 dias, acima do alvo.
+- Decisão de método: 16/10 tinha margem pontualmente alta; para margem, ler também contra 01/10 e 03/11. O texto revisado fica em `analises/2026-11-12.json`.
 
 ## Decisões de método
 
